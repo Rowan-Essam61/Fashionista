@@ -1,0 +1,186 @@
+
+/* Header Navbar */
+.header nav a img{
+    width: 60%;
+}
+.header nav{
+    display: flex;
+    flex-direction: row;
+    background-color: #fff;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    z-index: 5;
+}
+.header nav .links ul{
+display: flex;
+justify-content: space-around;
+list-style: none;
+}
+.header nav .links .shop a i{
+    font-size: 30px;
+    margin-top: -5px;
+}
+.header nav .links .shop a{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-decoration: none;
+}
+.header nav .links .shop a span{
+    align-self: flex-end;
+}
+.header nav .links ul .item1 a{
+    color: #043b5f;
+    font-size: 19px;
+}
+.header nav .links ul .top{
+    padding-top: 15px;
+}
+.header nav .links ul .item1 a:hover{
+    color:#dc3545 ;
+}
+.header nav .links ul .item2 button a{
+    color: white;
+}
+.header nav .links ul .item2 button {
+    margin-left: 15px;
+    float: right;
+}
+
+.header nav .links ul .profile a{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    margin-left: 20px;
+}
+.header nav .links ul .profile a:hover{
+    text-decoration: none;
+    color: #dc3545;
+}
+.header nav .links ul .profile a:hover span{
+    color: #dc3545;
+}
+.header nav .links ul .profile a:hover i{
+    color: #dc3545;
+}
+.header nav .links ul .profile a i{
+    color: #043b5f;
+    margin: 10px 5px 0 10px;
+}
+.header nav .links ul .profile a span{
+   color: #043b5f;
+   margin-top: -20px;
+   
+}
+
+
+/* Header Main */
+.container{
+    margin: 100px 0px 150px 20px;
+    display: flex;
+    justify-content: space-around;
+}
+.container img{
+    width: 300px;
+    margin-top: 100px;
+}
+.carousel{
+    width: 40%;
+    margin: auto;
+    height: 600px;
+    margin-top:100px ;
+}
+.carousel .carousel-inner .img1{
+width: 600px;
+}
+.carousel .carousel-inner .img2{
+    width: 600px;
+}
+
+
+/* Main */
+.main{
+    width: 80%;
+    margin: auto;
+}
+.main h1{
+    color: #043b5f;
+    margin-bottom: 50px;
+}
+.main .cat{
+    width: 85%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin: auto;
+    row-gap: 25px;
+    text-align: center;
+}
+.main .cat .card:hover{
+    box-shadow: -10px -10px #dc3545;
+}
+.main .cat .card5{
+    height: 80%;
+    margin: auto;
+}
+.main .cat .card{
+    box-shadow: 0 -10px #dc3545;
+}
+
+
+/* footer */
+.footer{
+    margin-top: 50px;
+    height: 200px;
+    width: 100%;
+    background-color: #043b5f;
+    padding: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+    .footer .social-media h3{
+        color: white;
+        padding-bottom: 20px;
+    }
+    .footer .social-media .linkat{
+        display: flex;
+        
+        justify-content: start;
+    }
+    .footer .social-media .linkat a i{
+        color: wheat;
+    }
+    .footer .social-media .linkat a i:hover{
+        color: #dc3545;
+    }
+    .footer .social-media .linkat a {
+        padding-left:20px ;
+    }
+.footer .control a{
+    color: bisque;
+    font-size: 25px;
+}
+.footer .control a:hover{
+    color: #dc3545;
+    text-decoration: none;
+}
+.footer .payment-method h3{
+ color: #fff;  
+ padding-bottom: 20px; 
+}
+.footer .payment-method .linkat{
+    display: flex;
+    
+    justify-content: start;
+}
+.footer .payment-method .linkat a {
+    padding-left:20px ;
+}
+.footer .payment-method .linkat a i{
+    color: wheat;
+    padding-left: 10px;
+}
+.footer .payment-method .linkat a i:hover{
+    color: #dc3545;
+}

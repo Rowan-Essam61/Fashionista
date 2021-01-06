@@ -1,0 +1,164 @@
+
+/* Header Navbar */
+.header nav a img{
+    width: 60%;
+}
+.header nav{
+    display: flex;
+    flex-direction: row;
+    background-color: #fff;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    z-index: 5;
+}
+.header nav .links ul{
+display: flex;
+list-style: none;
+}
+.header nav .links .shop a i{
+    font-size: 30px;
+    margin-top: -5px;
+}
+.header nav .links .shop a{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-decoration: none;
+}
+.header nav .links .shop a span{
+    align-self: flex-end;
+}
+.header nav .links ul .item1 a{
+    color: #043b5f;
+    font-size: 19px;
+}
+.header nav .links ul .top{
+    padding-top: 15px;
+}
+.header nav .links ul .item1 a:hover{
+    color:#dc3545 ;
+}
+.header nav .links ul .item2 button a{
+    color: white;
+}
+.header nav .links ul .item2 button {
+    margin-left: 15px;
+    float: right;
+}
+.header nav .links ul .profile a{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 20px;
+}
+.header nav .links ul .profile a:hover{
+    text-decoration: none;
+    color: #dc3545;
+}
+.header nav .links ul .profile a:hover span{
+    color: #dc3545;
+}
+.header nav .links ul .profile a:hover i{
+    color: #dc3545;
+}
+.header nav .links ul .profile a i{
+    color: #043b5f;
+    margin: 10px 5px 0 10px;
+}
+.header nav .links ul .profile a span{
+   color: #043b5f;
+   margin-top: -20px;
+   
+}
+
+ 
+/* Main */
+.main h1{
+    text-align: center;
+    background: -webkit-linear-gradient(#0b65a1, #dc3545);
+     -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
+  margin-top: 150px;
+  font-size: 60px;
+}
+.main .container{
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+   
+}
+.main .container .card{
+    margin-top: 100px;
+    color: #043b5f;
+    box-shadow: -5px -5px 8px 5px #e08d95;
+}
+.main .container .card img{
+    height: 400px;
+}
+.main .container .card h3{
+    text-align: center;
+    border:2px solid #dc3545;
+    width: 100px;
+}
+.main .container .card-size{
+    width: 50px;
+    padding: 10px;
+    text-decoration: none;
+    color: #dc3545;
+    border: 1px solid #043b5f;
+    margin-bottom: 50px;
+}
+.main .container .card-size:hover{
+    color: white;
+    background-color: #043b5f;
+}
+.main .container .btn{
+    margin-top: 30px;
+    width: 200px;
+    background-color: #043b5f;
+}
+.main .container .btn:hover{
+    background-color: #dc3545;
+}
+
+/* footer */
+.footer{
+    margin-top: 100px;
+    height: 200px;
+    width: 100%;
+    background-color: #043b5f;
+    padding: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+    .footer .social-media h3{
+        color: white;
+        padding-bottom: 20px;
+    }
+    .footer .social-media .linkat{
+        display: flex;
+        
+        justify-content: start;
+    }
+    .footer .social-media .linkat a i:hover{
+        color: #dc3545;
+    }
+    .footer .social-media .linkat a {
+        padding-left:20px ;
+    }
+.footer .payment-method h3{
+ color: #fff;  
+ padding-bottom: 20px; 
+}
+.footer .payment-method .linkat{
+    display: flex;
+    
+    justify-content: start;
+}
+.footer .payment-method .linkat a {
+    padding-left:20px ;
+}
+.footer .payment-method .linkat a i:hover{
+    color: #dc3545;
+}
